@@ -10,10 +10,10 @@ Installation
     composer create-project vijayc85/behat-starter your-project-name dev-master
 ```
 
-* Download the latest version of [Selenium Server](http://docs.seleniumhq.org/download/).
+* Download the latest version of [Selenium Server](http://docs.seleniumhq.org/download/) (under "Selenium Standalone Server" section).
 
-Running
--------
+Running tests
+-------------
 * Start selenium server
 ```sh
 java -jar selenium-server-standalone-2.44.0.jar 
@@ -30,6 +30,11 @@ vendor/bin/behat
 12 steps (12 passed)
 0m24.65s (11.98Mb)
 ```
+
+Updating tests
+--------------
+* Add more scenarios in features/smoke_test.feature
+* Add custom actions in features/bootstrap/FeatureContext.php
 
 Author
 -----
