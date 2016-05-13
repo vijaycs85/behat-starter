@@ -23,6 +23,13 @@ java -jar selenium-server-standalone-2.44.0.jar
 ```sh
 vendor/bin/behat
 ```
+* Result would be like this:
+
+```sh
+4 scenarios (4 passed)
+12 steps (12 passed)
+0m24.65s (11.98Mb)
+```
 
 Author
 -----
