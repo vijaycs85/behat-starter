@@ -10,7 +10,7 @@ Installation
     composer create-project vijayc85/behat-starter your-project-name dev-master
 ```
 
-* Download the latest version of [Selenium Server](http://docs.seleniumhq.org/download/) and place under server directory.
+* Download the latest version of [Selenium Server](http://docs.seleniumhq.org/download/).
 
 Running
 -------
